@@ -69,7 +69,7 @@
 	border-radius: 4px;
 }
 .sidebar_right .block{
-	background-color: #68727b;
+	background-color: #000;
 	background-color: var(--block-background-color);
 	border-bottom: none;
 	box-shadow: 0 -2px 0 0 var(--header-background-color) inset;

@@ -58,7 +58,7 @@
 					$this.attr(this.name, that.get(trn_attr_key));
 				}
 			});
-			$this.html(that.get(trn_key));
+			$this.html($("<div>").text(that.get(trn_key)).html());
 		});
 		return this;
 	};
